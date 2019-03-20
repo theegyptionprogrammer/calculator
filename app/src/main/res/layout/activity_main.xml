@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="8dp"
+        tools:context=".MainActivity">
+
+    <TextView
+            android:id="@+id/calculation" android:layout_height="wrap_content" android:layout_width="200dp"
+            android:hint="enter a number"/>
+    <TextView
+            android:id="@+id/Result" android:layout_height="wrap_content" android:layout_width="200dp"
+            android:hint="the result"/>
+    <Button
+            android:id="@+id/one" android:layout_width="50dp" android:text="1"
+            android:layout_row="1" android:layout_column="0" android:layout_marginTop="20dp"/>
+    <Button
+            android:id="@+id/two" android:layout_width="50dp" android:text="2"
+            android:layout_row="1" android:layout_column="0" android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"/>
+    <Button
+            android:id="@+id/three" android:layout_width="50dp" android:text="3"
+            android:layout_row="1" android:layout_column="0" android:layout_marginTop="20dp"
+            android:layout_marginLeft="100dp"/>
+    <Button
+            android:id="@+id/four" android:layout_width="50dp" android:text="4"
+            android:layout_row="1" android:layout_column="0" android:layout_marginTop="60dp"/>
+    <Button
+            android:id="@+id/six" android:layout_width="50dp" android:text="6"
+            android:layout_row="1" android:layout_column="0" android:layout_marginTop="60dp"
+            android:layout_marginLeft="100dp"/>
+    <Button
+            android:id="@+id/five" android:layout_width="50dp" android:text="5"
+            android:layout_row="1" android:layout_column="0" android:layout_marginTop="60dp"
+            android:layout_marginLeft="50dp"/>
+    <Button
+            android:id="@+id/seven" android:layout_width="50dp" android:text="7"
+            android:layout_row="1" android:layout_column="0" android:layout_marginTop="100dp"/>
+    <Button
+            android:id="@+id/eight" android:layout_width="50dp" android:text="8"
+            android:layout_row="1" android:layout_column="0" android:layout_marginTop="100dp"
+            android:layout_marginLeft="50dp"/>
+    <Button
+            android:id="@+id/nine" android:layout_width="50dp" android:text="9"
+            android:layout_row="1" android:layout_column="0" android:layout_marginTop="100dp"
+            android:layout_marginLeft="100dp"/>
+    <Button
+            android:id="@+id/zero" android:layout_width="50dp" android:text="0"
+            android:layout_row="1" android:layout_column="0" android:layout_marginTop="140dp"
+            android:layout_marginLeft="50dp"/>
+    <Button
+            android:id="@+id/dot" android:layout_width="50dp" android:text="."
+            android:layout_row="1" android:layout_column="0" android:layout_marginTop="140dp"/>
+    <Button
+            android:id="@+id/equal" android:layout_width="50dp" android:text="="
+            android:layout_row="1" android:layout_column="0" android:layout_marginTop="140dp"
+            android:layout_marginLeft="100dp"/>
+    <Button
+            android:id="@+id/add" android:layout_width="50dp" android:text="+"
+            android:layout_row="1" android:layout_marginTop="20dp"/>
+    <Button
+            android:id="@+id/sub" android:layout_width="50dp" android:text="-"
+            android:layout_row="1" android:layout_column="1" android:layout_marginTop="60dp"/>
+    <Button
+            android:id="@+id/mul" android:layout_width="50dp" android:text="*"
+            android:layout_row="1" android:layout_column="1" android:layout_marginTop="100dp"/>
+    <Button
+            android:id="@+id/div" android:layout_width="50dp" android:text="/"
+            android:layout_row="1" android:layout_column="1" android:layout_marginTop="140dp"/>
+    <Button
+            android:id="@+id/clear" android:layout_width="50dp" android:text="c"
+            android:layout_row="1" android:layout_column="1" android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"/>
+    <Button
+            android:id="@+id/leftBrack" android:layout_width="50dp" android:text="("
+            android:layout_row="1" android:layout_column="1" android:layout_marginTop="60dp"
+            android:layout_marginLeft="50dp"/>
+    <Button
+            android:id="@+id/rightBrack" android:layout_width="50dp" android:text=")"
+            android:layout_row="1" android:layout_column="1" android:layout_marginTop="100dp"
+            android:layout_marginLeft="50dp"/>
+    <Button
+            android:id="@+id/percent" android:layout_width="50dp" android:text="%"
+            android:layout_row="1" android:layout_column="1" android:layout_marginTop="140dp"
+            android:layout_marginLeft="50dp"/>
+    <Button
+            android:id="@+id/sin" android:layout_width="60dp" android:text="sin"
+            android:layout_row="1" android:layout_column="1" android:layout_marginTop="20dp"
+            android:layout_marginLeft="100dp"/>
+    <Button
+            android:id="@+id/cos" android:layout_width="60dp" android:text="cos"
+            android:layout_row="1" android:layout_column="1" android:layout_marginTop="60dp"
+            android:layout_marginLeft="100dp"/>
+    <Button
+            android:id="@+id/tan" android:layout_width="60dp" android:text="tan"
+            android:layout_row="1" android:layout_column="1" android:layout_marginTop="100dp"
+            android:layout_marginLeft="100dp"/>
+</GridLayout>
